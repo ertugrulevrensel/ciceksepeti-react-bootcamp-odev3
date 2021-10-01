@@ -164,3 +164,13 @@ a {
 .fa-save {
   background-color: rgb(49, 113, 233);
 }
+@media only screen and (min-width: 495px) and (max-width: 768px) {
+  .gridDiv {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 494px) {
+  .gridDiv {
+    grid-template-columns: 1fr;
+  }
+}
